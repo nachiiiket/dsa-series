@@ -6,12 +6,20 @@ int main()
     int n;
     cin>>n;
     int row = 1;
-    while(row <= 1)
+    while(row <= n)
     {
         int column = 1;
-        while(column <= 1)
+        while(column <= n)
         {
-            cout<<"*";
+            if(row == 1 || column == 1 || row == n || column == n )
+            {
+
+                cout<<"*";
+
+            }
+            else{
+                cout<<" ";
+            }
             column++;
         }
         cout<<endl;
