@@ -9,9 +9,9 @@ int main()
     while(row <= n)
     {
         int column = 1;
-        while(column <= row)
+        while(column <= n)
         {
-           cout<<"*";
+           cout<<row;
             column++;
         }
         cout<<endl;
@@ -20,3 +20,8 @@ int main()
  
     return 0;
 }
+
+
+
+/* 
+*/
